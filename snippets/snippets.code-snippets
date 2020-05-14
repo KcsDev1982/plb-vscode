@@ -1,0 +1,21 @@
+{
+	"dim": {
+		"prefix": "dim",
+		"body": "dim ${1:character size}",
+		"description": "dim",
+		"scope": "source.plb"
+	},
+	"form": {
+		"prefix": "form",
+		"body": "form ${1:integer digits}.${2:fractional digits}",
+		"description": "form",
+		"scope": "source.plb"
+	},
+	
+	"write": {
+		"prefix": "write",
+		"body": "write ${1:file},${2:record};${3:list}",
+		"description": "Write",
+		"scope": "source.plb"
+	}
+}
