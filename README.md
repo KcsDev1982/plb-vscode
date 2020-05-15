@@ -20,3 +20,18 @@ Alternatively, saving the file with a `.pls`, `.plbs`, or `.dbs` extension, will
 * Select the snippet that you want to use in the list
 * Use `tab` to navigate trough the snippet's variables
 
+### Change the file encoding
+
+The default file format is UTF8, and you might want to change this for PL/B. To do this just:
+
+1. Click on 'Programming Language for Business' at the right side of the bottom status bar 
+2. Select: Configure 'Programming Language for Business' language settings. This should bring up the settings.json file for editing.
+3. Find and click on files.encoding
+4. Select the new default encoding such as windows1252 or CP437 (DOS). The settings.json file will now have the following section:
+
+	"[plb]": {
+		"files.encoding": "windows1252",
+		},
+		
+5. Save and close the settings.json file.
+

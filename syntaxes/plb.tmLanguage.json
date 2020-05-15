@@ -6,6 +6,9 @@
 			"include": "#comments"
 		},
 		{
+			"include": "#labeldef"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -139,12 +142,14 @@
 				"match": "//.*$"
 			}]
 		},
-		"labels": {
+		"labeldef": {
 			"patterns": [{
 				"name": "variable.label.uda.plb",
 				"match": "^(\\$|[A-Za-z_])((\\$|\\w)*)\\b"
-				},
-				{
+				}]
+		},
+		"labels": {
+			"patterns": [{
 				"name": "variable.label.plb",
 				"match": "\\b(\\$|[A-Za-z_])((\\$|\\w)*)\\b"
 				}]
