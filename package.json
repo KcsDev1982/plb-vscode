@@ -2,7 +2,7 @@
     "name": "plb",
     "displayName": "Sunbelt PL/B Language",
     "description": "An extension for VS Code which provides support for the PL/B Language",
-    "version": "0.0.4",
+    "version": "0.0.5",
 	"publisher": "SunbeltComputerSoftware",
 	"author": "William Harold Keech",
 	"license": "MIT",
