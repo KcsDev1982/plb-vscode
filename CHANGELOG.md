@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.6 (26/03/11)
+
+- Update to 10.8A syntax
+
 ## 0.0.6 (25/09/25)
 
 - Update to 10.8 syntax
